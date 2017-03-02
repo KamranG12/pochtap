@@ -526,6 +526,13 @@ select,input {
     .section2{
     height: 870px;
     }
+    .find{
+        margin-left: 70px;
+    }
+    .sened{
+        float: right;
+        margin-left: 20px;
+    }
 }
 
 
@@ -562,5 +569,9 @@ select,input {
 .sened{
         float: right;
         margin-right: 20px;
+    }
+
+.find{
+        margin-left: 40px;
     }
 }
