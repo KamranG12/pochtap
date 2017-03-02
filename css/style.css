@@ -117,7 +117,7 @@ body {
      opacity: 0.9;
      background-image: url(../map.png);
      background-size: 70%;
-     height: 700px;
+     height: 650px;
      background-repeat: no-repeat;
      width: 100%;
 }
@@ -128,15 +128,15 @@ body {
 }
 
 .icon img{
-     margin-left: 10px;    
+     margin-left: 10px;
+     margin-top: 20px;    
  }
 
  .icon::before{
      content: "";
      border-left: 2px solid white;
      margin-right: 10px;
-     padding: 25px 0;
-     height: 53px;
+     padding: 12px 0 6px 0;
  }
 
   .dropdown {
@@ -221,6 +221,22 @@ a h2{
     opacity: 0.8;
 }
 
+.button2{
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 7%;
+    margin-top: 30px;
+}
+
+.button2 h3{
+    margin: 5px;
+    padding: 3px 15px;
+}
+
+.button2:hover{
+    background-color: #f25222;
+}
+
 .list{
     color: white;
 }
@@ -265,6 +281,117 @@ a h2{
     border-radius: 50%;
     background-color: #fbc222;
 }
+
+select,input {
+    color: black;
+    display: block;
+    width: 80%;
+    margin-top: 27px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 10px;
+    margin-left : 25px;
+}
+
+.find{
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.section2{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 480px;
+    text-align: center;
+}
+
+.section2 h1{
+    margin-top: 0;
+    padding: 40px;
+}
+
+.password{
+   padding: 20px;
+   margin: 10px;
+   height: 100px;
+   background-color: white;
+}
+
+.password .img{
+    margin-top: 25px;
+    width: 20%;
+}
+
+.password .name{
+     margin-top: 10px;
+    width: 70%;
+}
+
+.password h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.password p{
+     margin-top: 0;
+}
+
+.right{
+    text-align: center;
+    padding: 20px;
+}
+
+.center{
+    text-align: center;
+    padding: 20px;
+}
+
+.left{
+    text-align: center;
+    padding: 20px;
+}
+
+.result{
+    padding: 40px 0;
+}
+.center p{
+    padding-top: 50px;
+}
+
+.line{
+    height: 1px;
+    background-color: lightslategray;
+    margin-bottom: 10px;
+}
+
+.img4{
+    padding: 35px 10px;
+}
+
+.img5{
+    padding: 48px 25px;
+}
+
+.call ul li{
+    display: inline;
+    padding: 2px;
+}
+
+.info ul li{
+    display: inline;
+    padding: 5px;
+}
+
+.info{
+    margin-top: 40px;
+}
+
+.call{
+    margin-top: 38px;
+}
+
 
 
 
@@ -320,6 +447,17 @@ a h2{
     }
     .sened{
         margin-left: 20px;
+    }
+    .section2{
+    height: 770px;
+    }
+    .img4,.img5,.call,.info{
+    margin: 5px;
+    padding: 5px;
+   }
+   .sened{
+        float: right;
+        margin-right: 20px;
     }
 }
 
@@ -377,7 +515,17 @@ a h2{
         float: right;
         margin-right: 20px;
     }
+    .header{
+     background-size: 70%;
+     height: 900px;}
 
+     .img4,.img5,.call,.info{
+    margin: 5px;
+    padding: 5px;
+}
+    .section2{
+    height: 870px;
+    }
 }
 
 
@@ -399,4 +547,20 @@ a h2{
         float: right;
         margin-right: 20px;
 }
+.header{
+     background-size: 70%;
+     height: 1100px;
+     }
+.section2{
+    height: 1250px;
+    }
+
+.img4,.img5,.call,.info{
+    margin: 5px;
+    padding: 5px;
+}
+.sened{
+        float: right;
+        margin-right: 20px;
+    }
 }
